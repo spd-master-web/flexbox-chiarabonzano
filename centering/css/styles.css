@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper {
+  width: 800px;
+  height: 700px;
+  border: 2px dotted #000;
+  margin: 100px 0;
+}
+
+/* EXERCISE ONE */
+
+.wrapper.exercise-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ex1-box {
+  width: 500px;
+  height: 250px;
+  padding: 50px;
+  border: 4px solid pink;
+}
+
+/* EXERCISE TWO */
+
+.wrapper.exercise-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex2-box {
+  height: 380px;
+  width: 266px;
+  padding: 50px;
+  border: 4px solid pink;
+}
+
+.ex2-box.two {
+  align-self: center;
+}
+
+.ex2-box.three {
+  align-self: end;
+}
+
+/* EXERCISE THREE */
+
+.wrapper.exercise-three {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ex3-box {
+  height: 380px;
+  width: 266px;
+  padding: 50px;
+  border: 4px solid pink;
+}
+
+.ex3-box.two {
+  height: 696px;
+}
+
+.ex3-box.three {
+  align-self: end;
+}
+
+/* EXERCISE FOUR */
+
+.wrapper.exercise-four {
+  display: flex;
+  flex-direction: column;
+}
+
+.ex4-box {
+  height: 232px;
+  width: 796px;
+  padding: 50px;
+  border: 4px solid pink;
+}
