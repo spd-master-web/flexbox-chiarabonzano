@@ -36,6 +36,15 @@ body {
   justify-content: space-evenly;
 }
 
+.list {
+  padding: 0 15px;
+  border-right: 2px solid #00f;
+}
+
+.list.four {
+  border: none;
+}
+
 .content-box {
   display: flex;
   height: 572px;
