@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* EXERCISE ONE */
+
+.ex1-navigation {
+  margin: 100px;
+  width: 700px;
+  height: 60px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.ex1-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.ex1-list-element {
+  border-right: 2px solid red;
+  display: flex;
+  padding: 0 15px;
+}
+
+.ex1-list-element.four {
+  border: none;
+}
+
+a {
+  display: flex;
+  align-self: center;
+  color: red;
+}
+
+/* EXERCISE TWO */
+
+.ex2-navigation {
+  margin: 100px;
+  width: 700px;
+  height: 60px;
+  background-color: pink;
+  display: flex;
+  padding: 5px;
+}
+
+.ex2-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  display: flex;
+}
+
+.ex2-list-element {
+  border-right: 2px solid red;
+  display: flex;
+  padding: 0 15px;
+  width: 100%;
+}
+
+.ex2-list-element.four {
+  border: none;
+}
+
+a.ex-2 {
+  color: red;
+  width: 100%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+/* EXERCISE THREE */
+
+.ex3-navigation {
+  margin: 100px;
+  width: 700px;
+  height: 60px;
+  background-color: pink;
+  display: flex;
+}
+
+h1 {
+  background-color: red;
+  width: 160px;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+a.title {
+  color: white;
+}
+
+.ex3-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 700px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ex3-list-element {
+  border-left: 2px solid red;
+  display: flex;
+  width: 80px;
+  padding: 0 15px;
+  margin: 5px 0;
+}
