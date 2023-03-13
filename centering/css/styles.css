@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #ddd;
 }
 
 .page {
@@ -13,18 +14,20 @@ body {
 }
 
 .wrapper {
-  width: 800px;
-  height: 700px;
-  border: 2px dotted #000;
+  max-width: 800px;
+  min-height: 700px;
   margin: 100px 0;
+
+  background-color: #fff;
+  border: 2px dotted #000;
 }
 
 /* EXERCISE ONE */
 
-.wrapper.exercise-one {
+.wrapper.ex1 {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .ex1-box {
@@ -36,58 +39,57 @@ body {
 
 /* EXERCISE TWO */
 
-.wrapper.exercise-two {
+.wrapper.ex2 {
   display: flex;
   justify-content: space-between;
 }
 
 .ex2-box {
-  height: 380px;
-  width: 266px;
   padding: 50px;
   border: 4px solid pink;
 }
 
-.ex2-box.two {
+.ex2-box.start {
+  align-self: flex-start;
+}
+
+.ex2-box.center {
   align-self: center;
 }
 
-.ex2-box.three {
-  align-self: end;
+.ex2-box.end {
+  align-self: flex-end;
 }
 
 /* EXERCISE THREE */
 
-.wrapper.exercise-three {
+.wrapper.ex3 {
   display: flex;
   justify-content: space-between;
 }
 
 .ex3-box {
-  height: 380px;
-  width: 266px;
   padding: 50px;
   border: 4px solid pink;
 }
 
-.ex3-box.two {
-  height: 696px;
+.ex3-box.start {
+  align-self: flex-start;
 }
 
-.ex3-box.three {
-  align-self: end;
+.ex3-box.end {
+  align-self: flex-end;
 }
 
 /* EXERCISE FOUR */
 
-.wrapper.exercise-four {
+.wrapper.ex4 {
   display: flex;
   flex-direction: column;
 }
 
 .ex4-box {
-  height: 232px;
-  width: 796px;
-  padding: 50px;
+  padding: 52px 50px;
+  
   border: 4px solid pink;
 }

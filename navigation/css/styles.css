@@ -3,48 +3,46 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.page {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 /* EXERCISE ONE */
 
 .ex1-navigation {
   margin: 100px;
-  width: 700px;
-  height: 60px;
-  background-color: pink;
+  padding: 5px;
+
   display: flex;
   justify-content: center;
-  padding: 5px;
+
+  background-color: pink;
 }
 
 .ex1-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+
   display: flex;
+
+  list-style: none;
 }
 
 .ex1-list-element {
-  border-right: 2px solid red;
+  padding: 15px;
+
   display: flex;
-  padding: 0 15px;
+
+  border-right: 2px solid red;
 }
 
-.ex1-list-element.four {
+.ex1-list-element:last-child {
   border: none;
 }
 
 a {
   display: flex;
-  align-self: center;
+
   color: red;
 }
 
@@ -52,76 +50,72 @@ a {
 
 .ex2-navigation {
   margin: 100px;
-  width: 700px;
-  height: 60px;
+
   background-color: pink;
-  display: flex;
-  padding: 5px;
 }
 
 .ex2-list {
-  list-style: none;
   margin: 0;
-  padding: 0;
-  width: 700px;
+  padding: 5px;
+
   display: flex;
+  justify-content: space-evenly;
+
+  list-style: none;
 }
 
 .ex2-list-element {
-  border-right: 2px solid red;
-  display: flex;
-  padding: 0 15px;
   width: 100%;
+  padding: 15px;
+
+  display: flex;
+  justify-content: center;
+
+  border-right: 2px solid red;
 }
 
-.ex2-list-element.four {
+.ex2-list-element:last-child {
   border: none;
 }
 
-a.ex-2 {
-  color: red;
-  width: 100%;
-  display: flex;
-  align-self: center;
-  justify-content: center;
-}
+
 
 /* EXERCISE THREE */
 
 .ex3-navigation {
   margin: 100px;
-  width: 700px;
-  height: 60px;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
   background-color: pink;
-  display: flex;
 }
 
-h1 {
-  background-color: red;
-  width: 160px;
-  height: 100%;
+.ex3-header {
+  padding: 15px 20px 20px;
   margin: 0;
+
   display: flex;
-  justify-content: center;
+
+  background-color: red;
 }
 
-a.title {
+.ex3-header > a {
   color: white;
 }
 
 .ex3-list {
-  list-style: none;
   margin: 0;
   padding: 0;
-  width: 700px;
+
   display: flex;
-  justify-content: flex-end;
+
+  list-style: none;
 }
 
 .ex3-list-element {
+  padding: 15px;
+
   border-left: 2px solid red;
-  display: flex;
-  width: 80px;
-  padding: 0 15px;
-  margin: 5px 0;
 }
